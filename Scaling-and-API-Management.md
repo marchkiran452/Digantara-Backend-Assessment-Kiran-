@@ -1,4 +1,6 @@
-Scaling and API Management
+#Scaling and API Management
+
+
 This section explains how this microservice can be scaled effectively and how to manage its API within a larger ecosystem of services.
 Scaling This Microservice
 The key to scaling this service is its stateless architecture and the use of a shared, persistent job store. The application itself doesn't hold any state about the jobs, all state is externalized to the database.
